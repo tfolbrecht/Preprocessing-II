@@ -1,1 +1,22 @@
 // Mixins in here
+
+.btn {
+    font-size: 1.6rem * 1.2;
+    font-weight: bold;
+    width: 90%;
+    height: 20%;
+    background-color: @button-bg;
+    color: @main-bg;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: @main-bg;
+        color: @button-bg;
+    }
+}
+
+.margins() {
+    width: 85%;
+    margin: auto;
+}
